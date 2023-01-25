@@ -12,6 +12,7 @@ export default class ImageGallery extends Component {
       const list = this.listRef.current;
       return list.scrollHeight - list.scrollTop;
     }
+
     return null;
   }
 

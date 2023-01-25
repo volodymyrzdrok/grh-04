@@ -1,4 +1,3 @@
-// import PropTypes from 'prop-types';
 import React, { Component } from 'react';
 import apiService, { per_page } from './api/api-service';
 import Button from './components/Button/Button';
@@ -29,8 +28,9 @@ export default class AppImageFinder extends Component {
     if (newValue !== prevValue) {
       this.setState({ images: [], page: 1 });
       this.getImageFromApi(newValue, newPage);
+      window.scrollTo({ top: 10, behavior: 'smooth' });
     }
-    if (newPage !== prevPage) {
+    if (newPage > prevPage) {
       this.getImageFromApi(newValue, newPage);
     }
   }
