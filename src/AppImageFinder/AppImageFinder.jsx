@@ -1,5 +1,5 @@
 // import PropTypes from 'prop-types';
-import React, { Component, createRef } from 'react';
+import React, { Component } from 'react';
 import apiService, { per_page } from './api/api-service';
 import Button from './components/Button/Button';
 import ImageGallery from './components/ImageGallery/ImageGallery';
@@ -43,8 +43,6 @@ export default class AppImageFinder extends Component {
       this.setState(prevState => ({
         images: [...prevState.images, ...result.hits],
       }));
-
-      // scrollSmoth()
     } catch (error) {
       console.log(error);
     } finally {
