@@ -1,0 +1,23 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid white;
+  padding: 20px;
+  min-width: 370px;
+}
+.label {
+  display: flex;
+  flex-direction: column;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.nameInput {
+}
+.numberInput {
+  margin-bottom: 20px;
+}
+.formBtn {
+  margin: 0 auto;
+  width: 150px;
+  height: 30px;
+}

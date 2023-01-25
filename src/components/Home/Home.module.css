@@ -1,0 +1,8 @@
+.container {
+  padding-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.container button {
+  margin-right: 20px;
+}
