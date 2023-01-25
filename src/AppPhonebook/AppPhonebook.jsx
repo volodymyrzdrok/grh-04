@@ -85,7 +85,7 @@ class AppPhonebook extends Component {
               style={{
                 marginTop: '10px',
               }}
-              to="/"
+              to="/ghr-03"
             >
               Home
             </Link>

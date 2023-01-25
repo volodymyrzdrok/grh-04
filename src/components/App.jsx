@@ -7,7 +7,7 @@ export const App = () => {
   return (
     <>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route path="/ghr-03" element={<Home />} />
         <Route path="/imagefinder" element={<AppImageFinder />} />
         <Route path="/phonebook" element={<AppPhonebook />} />
       </Routes>
