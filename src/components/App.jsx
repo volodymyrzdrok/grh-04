@@ -5,12 +5,11 @@ import Home from './Home/Home';
 
 export const App = () => {
   return (
-    <>
-      <Routes>
-        <Route path="/ghr-03" element={<Home />} />
-        <Route path="/imagefinder" element={<AppImageFinder />} />
-        <Route path="/phonebook" element={<AppPhonebook />} />
-      </Routes>
-    </>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/imagefinder" element={<AppImageFinder />} />
+      <Route path="/phonebook" element={<AppPhonebook />} />
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 };

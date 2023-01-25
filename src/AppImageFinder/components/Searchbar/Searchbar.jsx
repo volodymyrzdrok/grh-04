@@ -19,7 +19,7 @@ const Searchbar = ({ newValue }) => {
           marginRight: '10px',
         }}
       >
-        <Link to="/ghr-03">Home</Link>
+        <Link to="/">Home</Link>
       </button>
       <form className={c.SearchForm} onSubmit={onSubmitForm}>
         <button type="submit" className={c['SearchForm-button']}>
