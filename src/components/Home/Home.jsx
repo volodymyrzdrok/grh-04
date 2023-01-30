@@ -7,6 +7,9 @@ const Home = props => {
   return (
     <div className={c.container}>
       <button>
+        <Link to="/feedback">Feedback</Link>
+      </button>
+      <button>
         <Link to="/phonebook">Phonebook</Link>
       </button>
       <button>

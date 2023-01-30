@@ -1,8 +1,8 @@
 {
-  "name": "react",
+  "name": "04-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://volodymyrzdrok.github.io/ghr-03",
+  "homepage": "https://volodymyrzdrok.github.io/grh-04",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
     "@testing-library/react": "^12.1.4",

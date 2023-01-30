@@ -1,4 +1,4 @@
-import React from 'react';
+import { memo } from 'react';
 import PropTypes from 'prop-types';
 import c from './ImageGalleryItem.module.css';
 
@@ -11,7 +11,7 @@ const ImageGalleryItem = ({
   const getLargeImgUrl = e => {
     const imgEl = e.target;
     if (imgEl === e.currentTarget) {
-      takeLargeImgUrl(imgEl.dataset.largeimg, imgEl.getAttribute('alt'));
+      takeLargeImgUrl(largeImageURL, tags);
     }
   };
 
@@ -21,7 +21,6 @@ const ImageGalleryItem = ({
         onClick={getLargeImgUrl}
         className={c['ImageGalleryItem-image']}
         src={webformatURL}
-        data-largeimg={largeImageURL}
         alt={tags}
       />
     </li>
