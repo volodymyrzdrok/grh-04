@@ -29,7 +29,10 @@ const ContactForm = ({ addContact }) => {
       id: nanoid(),
     };
     addContact(newObj);
-    e.target.reset();
+    setContactValue({
+      name: '',
+      number: '',
+    });
   };
 
   return (
