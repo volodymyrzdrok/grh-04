@@ -2,7 +2,6 @@ import PropTypes from 'prop-types';
 import c from './ContactList.module.css';
 
 const ContactList = ({ removeContact, items }) => {
-  console.log('1');
   return (
     <ul className={c.list}>
       {items.map(({ id, name, number }) => (
